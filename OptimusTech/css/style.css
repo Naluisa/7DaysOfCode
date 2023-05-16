@@ -93,15 +93,21 @@ li {
 .diferencial{
 text-align: center;
 margin-top: 50px;
+display: flex;
+flex-direction: column;
 }
 .diferencial p{
 color: var(--text-color);
 font-size: 16px;
+text-align: center;
+  line-height: 1.5rem;
 }
 
 .diferencial h1{
 margin-bottom: 25px;
 margin-top: 20px;
+font-size: 2rem;
+
 }
 
 span{
