@@ -171,4 +171,39 @@ span {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+.vagas{
+display: flex;
+flex-direction: column;
+}
+
+.vagas h3{
+justify-content: start;
+margin-left: 45rem;
+display: flex;
+margin-bottom: 3rem;
+}
+
+.vaga{
+display: flex;
+flex-direction: column;
+margin-left: 48rem;
+
+}
+
+.titulo-vaga{
+color:  #101828;
+margin-bottom: 1rem;
+}
+
+.informacoes{
+  margin-bottom: 4rem;
+}
+
+.informacoes span {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: normal;
 }
