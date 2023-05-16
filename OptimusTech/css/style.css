@@ -113,5 +113,30 @@ font-size: 2rem;
 span{
   color: var(--main-color);
   font-weight: 700;
+}
 
+.metricas-container{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 5rem;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.metricas-container h1{
+  color: var(--main-color);
+  font-size: 3rem;
+  padding-bottom: 10px;
+
+}
+.metricas-container h4{
+padding-bottom: 8px;
+}
+.metricas-container p{
+  color: var(--text-color);
+  line-height: 1.5rem;
+  font-size: 14px;
 }
